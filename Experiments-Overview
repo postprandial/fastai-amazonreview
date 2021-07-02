@@ -1,0 +1,33 @@
+AMAZON REVIEWS HELPFULNESS PROJECT
+
+
+Review Categories
+
+Gaurav: Home and Kitchen
+Tamara: Electronics
+Dewsy: Cell Phones and Accessories
+Kenny: Beauty
+Maria: Grocery and Gourmet Food (¿?)
+Vu: Movies and TV
+
+
+Baseline Steps
+
+1. Drop anything with less than 50 total votes 
+2. Binning: 75% and up is helpful, below is not helpful 
+3. Assure equal numbers of helpful and non-helpful votes by random sampling
+
+
+Experimentation Ideas
+
+Dewsy suggested concatenating summary and text (summary comes first)
+Clean-up: eliminate duplicates in data 
+Clean-up/labeling: mark scammer/duplicates as non-helpful, if they aren't already
+
+Data Format
+
+CSV (tip: when loading, cast to smaller datatypes)
+
+Data Format details
+
+Summary (first?), reviewText, num_helpful_votes, num_total_votes, helpful_ratio
